@@ -1,4 +1,19 @@
 Quick setup
+
+If Git is NOT installed
+Download and install Git from:
+👉 https://git-scm.com/downloads
+
+During installation, you can accept the default options (recommended for most users).
+
+After installing:
+
+Close and reopen your Command Prompt.
+
+Then run git --version again to confirm.
+
+
+
 create a new repository on the command line
 run cmd for DOS prompt
 cd NRC
@@ -9,3 +24,55 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Sunil-Chakraborty/NRC.git
 git push -u origin main
+
+
+✅ 1. Clone Your GitHub Repo via Command Prompt
+Prerequisites:
+Git must be installed: https://git-scm.com/downloads
+
+Steps:
+Open Command Prompt (cmd)
+
+Navigate to the directory where you want to clone the repo:
+
+bash
+Copy
+Edit
+cd path\to\your\destination
+Run the following Git command:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/your-repo-name.git
+🔁 Replace your-username and your-repo-name accordingly.
+
+✅ 2. Delete Files and Folders via Command Prompt
+A. Delete a File
+bash
+Copy
+Edit
+del your-file-name.ext
+Example:
+
+bash
+Copy
+Edit
+del notes.txt
+❗ This only works if you're inside the repo directory (use cd your-repo-name to enter).
+
+B. Delete a Folder
+bash
+Copy
+Edit
+rmdir /s /q your-folder-name
+/s – deletes all subfolders/files
+
+/q – quiet mode (no prompt)
+
+Example:
+
+bash
+Copy
+Edit
+rmdir /s /q old_docs
